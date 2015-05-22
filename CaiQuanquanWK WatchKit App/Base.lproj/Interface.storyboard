@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--猜拳拳-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="game" title="猜拳拳" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CaiQuanquanWK_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.14999999999999999" alignment="left" id="SxL-NU-v9c">
+                            <items>
+                                <label alignment="left" text="胜:" id="im3-vQ-Nxs"/>
+                                <label alignment="left" text="0" id="UoJ-61-hxk"/>
+                                <label alignment="center" text="平:" id="Olb-Mq-J5f"/>
+                                <label alignment="center" text="0" id="upE-p2-AA5"/>
+                                <label alignment="right" text="负:" id="NM3-TS-CDW"/>
+                                <label alignment="right" text="0" id="aV1-wt-sDP"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.65000000000000002" alignment="left" id="8a9-Jm-DFN">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" image="f" animationDuration="1" id="ceO-hX-4sV"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.14999999999999999" alignment="left" id="DdS-zj-FeU">
+                            <items>
+                                <button width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="g1" id="2Aw-EE-59A">
+                                    <connections>
+                                        <action selector="onShitou" destination="AgC-eL-Hgc" id="zBR-YV-h8D"/>
+                                    </connections>
+                                </button>
+                                <button width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="g2" id="0f6-ah-sJB">
+                                    <connections>
+                                        <action selector="onJiandao" destination="AgC-eL-Hgc" id="GxS-sF-0i9"/>
+                                    </connections>
+                                </button>
+                                <button width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="g3" id="7V3-jy-0lT">
+                                    <connections>
+                                        <action selector="onBu" destination="AgC-eL-Hgc" id="usK-pn-0Kf"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="labLose" destination="NM3-TS-CDW" id="fNl-sK-xNq"/>
+                        <outlet property="labLoseTimes" destination="aV1-wt-sDP" id="Yi9-iJ-uGS"/>
+                        <outlet property="labTieTimes" destination="upE-p2-AA5" id="CEk-Cg-ZZO"/>
+                        <outlet property="labWin" destination="im3-vQ-Nxs" id="4lZ-gh-Rx6"/>
+                        <outlet property="labWinTimes" destination="UoJ-61-hxk" id="Af3-tm-hB5"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--胜负-->
+        <scene sceneID="cao-b5-tkj">
+            <objects>
+                <controller identifier="result" title="胜负" id="JnA-LK-Wbb" customClass="ResultsController" customModule="CaiQuanquanWK_WatchKit_Extension">
+                    <items>
+                        <group width="136" height="110" alignment="left" backgroundImage="bgWin" id="BwB-nF-IlM">
+                            <items>
+                                <imageView width="30" height="30" alignment="center" verticalAlignment="center" image="g1" id="f15-0H-xYc"/>
+                                <label alignment="center" verticalAlignment="center" text="你赢了" id="Lrc-i3-5W9"/>
+                                <imageView width="30" height="30" alignment="center" verticalAlignment="center" image="g3" id="r6p-F0-sIn"/>
+                            </items>
+                        </group>
+                        <button width="100" height="33" alignment="center" verticalAlignment="bottom" title="再来一次" id="HE1-Wa-VqG">
+                            <connections>
+                                <action selector="onRestart" destination="JnA-LK-Wbb" id="YRM-Nk-eRp"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="bg" destination="BwB-nF-IlM" id="jWc-to-xc4"/>
+                        <outlet property="imgC" destination="r6p-F0-sIn" id="UUZ-4Y-bVT"/>
+                        <outlet property="imgM" destination="f15-0H-xYc" id="Qvz-Xi-nNh"/>
+                        <outlet property="labResult" destination="Lrc-i3-5W9" id="Hfb-Q7-rau"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="248" y="611"/>
+        </scene>
+    </scenes>
+</document>

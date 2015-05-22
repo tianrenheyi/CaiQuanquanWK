@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D004121B0D6FBC00C9F9A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004111B0D6FBC00C9F9A4 /* AppDelegate.swift */; };
+		18D004141B0D6FBC00C9F9A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004131B0D6FBC00C9F9A4 /* ViewController.swift */; };
+		18D004171B0D6FBC00C9F9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D004151B0D6FBC00C9F9A4 /* Main.storyboard */; };
+		18D004191B0D6FBC00C9F9A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D004181B0D6FBC00C9F9A4 /* Images.xcassets */; };
+		18D0041C1B0D6FBC00C9F9A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D0041A1B0D6FBC00C9F9A4 /* LaunchScreen.xib */; };
+		18D004281B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004271B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.swift */; };
+		18D0043A1B0D6FCF00C9F9A4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004391B0D6FCF00C9F9A4 /* InterfaceController.swift */; };
+		18D0043C1B0D6FCF00C9F9A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D0043B1B0D6FCF00C9F9A4 /* Images.xcassets */; };
+		18D004401B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 18D0043F1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App.app */; };
+		18D004481B0D6FCF00C9F9A4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D004461B0D6FCF00C9F9A4 /* Interface.storyboard */; };
+		18D0044A1B0D6FCF00C9F9A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D004491B0D6FCF00C9F9A4 /* Images.xcassets */; };
+		18D0044D1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18D004351B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18D004561B0D769400C9F9A4 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004551B0D769400C9F9A4 /* ResultsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D004221B0D6FBD00C9F9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D004041B0D6FBB00C9F9A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D0040B1B0D6FBB00C9F9A4;
+			remoteInfo = CaiQuanquanWK;
+		};
+		18D004411B0D6FCF00C9F9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D004041B0D6FBB00C9F9A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D0043E1B0D6FCF00C9F9A4;
+			remoteInfo = "CaiQuanquanWK WatchKit App";
+		};
+		18D0044B1B0D6FCF00C9F9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D004041B0D6FBB00C9F9A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D004341B0D6FCF00C9F9A4;
+			remoteInfo = "CaiQuanquanWK WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18D004541B0D6FCF00C9F9A4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18D0044D1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18D0040C1B0D6FBC00C9F9A4 /* CaiQuanquanWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaiQuanquanWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D004101B0D6FBC00C9F9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D004111B0D6FBC00C9F9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D004131B0D6FBC00C9F9A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D004161B0D6FBC00C9F9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D004181B0D6FBC00C9F9A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18D0041B1B0D6FBC00C9F9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18D004211B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaiQuanquanWKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D004261B0D6FBD00C9F9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D004271B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaiQuanquanWKTests.swift; sourceTree = "<group>"; };
+		18D004351B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CaiQuanquanWK WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D004381B0D6FCF00C9F9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D004391B0D6FCF00C9F9A4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		18D0043B1B0D6FCF00C9F9A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18D0043F1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CaiQuanquanWK WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D004451B0D6FCF00C9F9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D004471B0D6FCF00C9F9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		18D004491B0D6FCF00C9F9A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18D004551B0D769400C9F9A4 /* ResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D004091B0D6FBB00C9F9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D0041E1B0D6FBD00C9F9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D004321B0D6FCF00C9F9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D004031B0D6FBB00C9F9A4 = {
+			isa = PBXGroup;
+			children = (
+				18D0040E1B0D6FBC00C9F9A4 /* CaiQuanquanWK */,
+				18D004241B0D6FBD00C9F9A4 /* CaiQuanquanWKTests */,
+				18D004361B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension */,
+				18D004431B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App */,
+				18D0040D1B0D6FBC00C9F9A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D0040D1B0D6FBC00C9F9A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D0040C1B0D6FBC00C9F9A4 /* CaiQuanquanWK.app */,
+				18D004211B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.xctest */,
+				18D004351B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension.appex */,
+				18D0043F1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D0040E1B0D6FBC00C9F9A4 /* CaiQuanquanWK */ = {
+			isa = PBXGroup;
+			children = (
+				18D004111B0D6FBC00C9F9A4 /* AppDelegate.swift */,
+				18D004131B0D6FBC00C9F9A4 /* ViewController.swift */,
+				18D004151B0D6FBC00C9F9A4 /* Main.storyboard */,
+				18D004181B0D6FBC00C9F9A4 /* Images.xcassets */,
+				18D0041A1B0D6FBC00C9F9A4 /* LaunchScreen.xib */,
+				18D0040F1B0D6FBC00C9F9A4 /* Supporting Files */,
+			);
+			path = CaiQuanquanWK;
+			sourceTree = "<group>";
+		};
+		18D0040F1B0D6FBC00C9F9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D004101B0D6FBC00C9F9A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D004241B0D6FBD00C9F9A4 /* CaiQuanquanWKTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D004271B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.swift */,
+				18D004251B0D6FBD00C9F9A4 /* Supporting Files */,
+			);
+			path = CaiQuanquanWKTests;
+			sourceTree = "<group>";
+		};
+		18D004251B0D6FBD00C9F9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D004261B0D6FBD00C9F9A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D004361B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18D004391B0D6FCF00C9F9A4 /* InterfaceController.swift */,
+				18D004551B0D769400C9F9A4 /* ResultsController.swift */,
+				18D0043B1B0D6FCF00C9F9A4 /* Images.xcassets */,
+				18D004371B0D6FCF00C9F9A4 /* Supporting Files */,
+			);
+			path = "CaiQuanquanWK WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		18D004371B0D6FCF00C9F9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D004381B0D6FCF00C9F9A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D004431B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				18D004461B0D6FCF00C9F9A4 /* Interface.storyboard */,
+				18D004491B0D6FCF00C9F9A4 /* Images.xcassets */,
+				18D004441B0D6FCF00C9F9A4 /* Supporting Files */,
+			);
+			path = "CaiQuanquanWK WatchKit App";
+			sourceTree = "<group>";
+		};
+		18D004441B0D6FCF00C9F9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D004451B0D6FCF00C9F9A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D0040B1B0D6FBB00C9F9A4 /* CaiQuanquanWK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D0042B1B0D6FBD00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWK" */;
+			buildPhases = (
+				18D004081B0D6FBB00C9F9A4 /* Sources */,
+				18D004091B0D6FBB00C9F9A4 /* Frameworks */,
+				18D0040A1B0D6FBB00C9F9A4 /* Resources */,
+				18D004541B0D6FCF00C9F9A4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D0044C1B0D6FCF00C9F9A4 /* PBXTargetDependency */,
+			);
+			name = CaiQuanquanWK;
+			productName = CaiQuanquanWK;
+			productReference = 18D0040C1B0D6FBC00C9F9A4 /* CaiQuanquanWK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D004201B0D6FBD00C9F9A4 /* CaiQuanquanWKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D0042E1B0D6FBD00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWKTests" */;
+			buildPhases = (
+				18D0041D1B0D6FBD00C9F9A4 /* Sources */,
+				18D0041E1B0D6FBD00C9F9A4 /* Frameworks */,
+				18D0041F1B0D6FBD00C9F9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D004231B0D6FBD00C9F9A4 /* PBXTargetDependency */,
+			);
+			name = CaiQuanquanWKTests;
+			productName = CaiQuanquanWKTests;
+			productReference = 18D004211B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D004341B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D004511B0D6FCF00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWK WatchKit Extension" */;
+			buildPhases = (
+				18D004311B0D6FCF00C9F9A4 /* Sources */,
+				18D004321B0D6FCF00C9F9A4 /* Frameworks */,
+				18D004331B0D6FCF00C9F9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D004421B0D6FCF00C9F9A4 /* PBXTargetDependency */,
+			);
+			name = "CaiQuanquanWK WatchKit Extension";
+			productName = "CaiQuanquanWK WatchKit Extension";
+			productReference = 18D004351B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		18D0043E1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D0044E1B0D6FCF00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWK WatchKit App" */;
+			buildPhases = (
+				18D0043D1B0D6FCF00C9F9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CaiQuanquanWK WatchKit App";
+			productName = "CaiQuanquanWK WatchKit App";
+			productReference = 18D0043F1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D004041B0D6FBB00C9F9A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18D0040B1B0D6FBB00C9F9A4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					18D004201B0D6FBD00C9F9A4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 18D0040B1B0D6FBB00C9F9A4;
+					};
+					18D004341B0D6FCF00C9F9A4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					18D0043E1B0D6FCF00C9F9A4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 18D004071B0D6FBB00C9F9A4 /* Build configuration list for PBXProject "CaiQuanquanWK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D004031B0D6FBB00C9F9A4;
+			productRefGroup = 18D0040D1B0D6FBC00C9F9A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D0040B1B0D6FBB00C9F9A4 /* CaiQuanquanWK */,
+				18D004201B0D6FBD00C9F9A4 /* CaiQuanquanWKTests */,
+				18D004341B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension */,
+				18D0043E1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D0040A1B0D6FBB00C9F9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D004171B0D6FBC00C9F9A4 /* Main.storyboard in Resources */,
+				18D0041C1B0D6FBC00C9F9A4 /* LaunchScreen.xib in Resources */,
+				18D004191B0D6FBC00C9F9A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D0041F1B0D6FBD00C9F9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D004331B0D6FCF00C9F9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D004401B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App.app in Resources */,
+				18D0043C1B0D6FCF00C9F9A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D0043D1B0D6FCF00C9F9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D004481B0D6FCF00C9F9A4 /* Interface.storyboard in Resources */,
+				18D0044A1B0D6FCF00C9F9A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D004081B0D6FBB00C9F9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D004141B0D6FBC00C9F9A4 /* ViewController.swift in Sources */,
+				18D004121B0D6FBC00C9F9A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D0041D1B0D6FBD00C9F9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D004281B0D6FBD00C9F9A4 /* CaiQuanquanWKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D004311B0D6FCF00C9F9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D004561B0D769400C9F9A4 /* ResultsController.swift in Sources */,
+				18D0043A1B0D6FCF00C9F9A4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D004231B0D6FBD00C9F9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D0040B1B0D6FBB00C9F9A4 /* CaiQuanquanWK */;
+			targetProxy = 18D004221B0D6FBD00C9F9A4 /* PBXContainerItemProxy */;
+		};
+		18D004421B0D6FCF00C9F9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D0043E1B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit App */;
+			targetProxy = 18D004411B0D6FCF00C9F9A4 /* PBXContainerItemProxy */;
+		};
+		18D0044C1B0D6FCF00C9F9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D004341B0D6FCF00C9F9A4 /* CaiQuanquanWK WatchKit Extension */;
+			targetProxy = 18D0044B1B0D6FCF00C9F9A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D004151B0D6FBC00C9F9A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D004161B0D6FBC00C9F9A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D0041A1B0D6FBC00C9F9A4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D0041B1B0D6FBC00C9F9A4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		18D004461B0D6FCF00C9F9A4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D004471B0D6FCF00C9F9A4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D004291B0D6FBD00C9F9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D0042A1B0D6FBD00C9F9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D0042C1B0D6FBD00C9F9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaiQuanquanWK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D0042D1B0D6FBD00C9F9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaiQuanquanWK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D0042F1B0D6FBD00C9F9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CaiQuanquanWKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaiQuanquanWK.app/CaiQuanquanWK";
+			};
+			name = Debug;
+		};
+		18D004301B0D6FBD00C9F9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CaiQuanquanWKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaiQuanquanWK.app/CaiQuanquanWK";
+			};
+			name = Release;
+		};
+		18D0044F1B0D6FCF00C9F9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CaiQuanquanWK_WatchKit_Extension;
+				INFOPLIST_FILE = "CaiQuanquanWK WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		18D004501B0D6FCF00C9F9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CaiQuanquanWK_WatchKit_Extension;
+				INFOPLIST_FILE = "CaiQuanquanWK WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		18D004521B0D6FCF00C9F9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaiQuanquanWK WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18D004531B0D6FCF00C9F9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CaiQuanquanWK WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D004071B0D6FBB00C9F9A4 /* Build configuration list for PBXProject "CaiQuanquanWK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D004291B0D6FBD00C9F9A4 /* Debug */,
+				18D0042A1B0D6FBD00C9F9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D0042B1B0D6FBD00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D0042C1B0D6FBD00C9F9A4 /* Debug */,
+				18D0042D1B0D6FBD00C9F9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D0042E1B0D6FBD00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D0042F1B0D6FBD00C9F9A4 /* Debug */,
+				18D004301B0D6FBD00C9F9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D0044E1B0D6FCF00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWK WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D0044F1B0D6FCF00C9F9A4 /* Debug */,
+				18D004501B0D6FCF00C9F9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18D004511B0D6FCF00C9F9A4 /* Build configuration list for PBXNativeTarget "CaiQuanquanWK WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D004521B0D6FCF00C9F9A4 /* Debug */,
+				18D004531B0D6FCF00C9F9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D004041B0D6FBB00C9F9A4 /* Project object */;
+}
